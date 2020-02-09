@@ -9,11 +9,6 @@ end
 def long_planeteer_calls(plants)
   statement = true
   if plants.any? {|word| word.length>4}
-     statement
-  else
-    rstatement = false
-  end
-  statement
 end
 
 def find_the_cheese# code an argument here
