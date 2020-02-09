@@ -7,12 +7,11 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(plants)
-  statement = false
+  statement = true
   if plants.collect{|word| word.length<4}
-    statement
-  end
-  if plants.collect{|word| word.length>4}
-    statement = true
+    statment = false
+  else
+    return true
   end
   statement
 end
