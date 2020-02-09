@@ -15,5 +15,6 @@ def find_the_cheese(cheese)
   i = 0
   while i < cheese.length do
     cheese_types.include? (cheese[i])
+    i+=1
   end
 end
