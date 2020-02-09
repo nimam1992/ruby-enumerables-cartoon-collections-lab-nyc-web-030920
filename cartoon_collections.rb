@@ -9,7 +9,7 @@ end
 def long_planeteer_calls(plants)
   statement = true
   if plants.collect{|word| word.length>4}
-    return statment
+    return statement
   else
     statement = false
   end
